@@ -1,0 +1,21 @@
+.wellcome{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  text-align: center;
+}
+.wellcome img{
+    width: 40vh;
+    padding-top: 15px;
+}
+.text{
+    font-size:xx-large;
+    border-bottom: 1px solid #a9a9a9;
+    
+}
+@media (max-width: 600px) {
+    .wellcome {
+        top: 15%;
+        left: 33%;
+    }
+  }

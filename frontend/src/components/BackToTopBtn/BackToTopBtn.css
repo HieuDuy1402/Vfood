@@ -1,0 +1,25 @@
+.btn-up {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 20%;
+}
+.btn-up:hover{
+  background-color: orangered;
+}
+.btn-up img {
+  align-items: center;
+  width: 40px;
+  margin-bottom: -4px;
+}
+
+@media (max-width: 1000px) {
+  .btn-up {
+    right: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .btn-up {
+    display: none;
+  }
+}
